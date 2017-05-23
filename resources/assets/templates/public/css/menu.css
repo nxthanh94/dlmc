@@ -1,0 +1,234 @@
+.caret {
+    display: none !important;
+}
+.bx-wrapper {
+    margin-left: 0% !important;
+}
+.menu {
+    font-weight: bold;
+}
+@media screen and (min-width: 767px) {
+.menu{
+    text-transform: uppercase;
+    font-size: 13px;
+    float: left;
+    width: 100%;
+}
+.navbar-inverse {
+    background-color: #034099 !important;
+    border-color: #034099 !important;
+    border: 0 !important;
+    width: 100%;
+    border-radius: unset !important;
+    margin-top: 1px;
+}
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    width: 100%;
+}
+.navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-image:url(../images/bac_menu.png) !important;
+    color: #03b0fc !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-image:url(../images/bac_menu.png) !important;
+    color: #03b0fc !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-image:url(../images/bac_menu.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background-image:url(../images/bac_menu.png) !important;
+    color: #03b0fc !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: rgba(3,64,153,0.8) !important;
+}
+.dropdown-menu > li{
+    border-bottom: 1px dotted #034099;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dropdown-menu > li > a {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    font-size: 13px;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background: none !important;
+    color: #03b0fc !important;
+}
+.navbar-form .form-control {
+    width: 200px !important;
+}
+
+}
+@media screen and (min-width: 1281px) {
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left: 105px !important;
+    text-transform: uppercase;
+}
+.navbar-form {
+    margin-left: 100px !important;
+}
+}
+@media screen and (max-width: 1280px) {
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left: 105px !important;
+    text-transform: uppercase;
+}
+.navbar-form {
+    margin-left: 100px !important;
+}
+}
+@media screen and (max-width: 1024px) {
+.navbar-nav {
+    margin-left: 0px !important;
+}
+.navbar-form {
+    margin-left: 0px !important;
+}
+.menu .nav > li > a {
+    padding: 10px 12px;
+}
+.menu .navbar-nav > li > a {
+    line-height: 30px;
+}
+}
+@media screen and (max-width: 960px) {
+.menu .nav > li > a {
+    padding: 10px 8px;
+}
+}
+@media screen and (max-width: 800px) {
+.navbar-nav {
+    margin-left: -30px !important;
+}
+}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 480px) {
+.top .logo {
+    width: 25%;
+}
+.navbar-nav {
+    margin-left: 10px !important;
+}
+.top .top_right {
+    margin-left: 60px;
+    display: none;
+}
+.top .top_con ul{
+    display: none;
+}
+.top .top_con p {
+    color: #005fd7;
+    font-size: 16px;
+    text-align: center;
+}
+.contact  .form-control {
+    color: #000;
+    background-color: unset !important;
+    border: 1px solid #a1a1a1 !important;
+    border-radius: 0px !important;
+}
+.navbar-inverse {
+    background-color:     rgba(46,48,148,0.5) !important;
+    border: 0 !important;
+    width: 100%;
+    border-radius: unset !important;
+    margin-top: 1px;
+}
+.navbar-inverse .navbar-brand {
+    display: none;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(46,48,148,0.5) !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #2e3094 !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none !important;
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background: none !important;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #2e3094 !important;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+   color: #2e3094 !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: rgba(46,48,148,0) !important;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #2e3094 !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background: rgba(46,48,148,0) !important;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff !important;
+}
+.navbar {
+    margin-bottom: 0px !important;
+    float: left;
+}
+.form-control {
+    color: #fff !important;
+    background-color: rgba(255,0,0,0.59) !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.navbar-form .form-group {
+    margin-left: -10px;
+}
+.txt_bt {
+    color: #fff;
+    background: rgba(255,0,0,0.59) !important;
+    border: none;
+    margin-left: -10px;
+    height: 35px;
+    width: 100px;
+}
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+.top .top_con p {
+    color: #005fd7;
+    font-size: 12px;
+    text-align: center;
+}
+}
